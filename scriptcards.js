@@ -90,10 +90,10 @@ const shops = {
     description: "Кофейня One Price Coffee — это место, где вы можете быстро взять качественный кофе по понятной фиксированной цене за любой объем. Формат идеально подходит для тех, кто ценит свое время и любит брать напитки с собой на ходу",
     map: "https://yandex.ru/map-widget/v1/?ll=30.2971505,60.0026155&z=17&pt=30.297477,60.002432~30.296824,60.002799",
     menu: [
-      { name: "Капучино Сникерс", image: "images/onePrice/1.png" }
-      ,{ name: "Латте ореховое удовольствие", image: "images/onePrice/2.png" }
-      ,{ name: "Листовой чай", image: "images/onePrice/3.png" }
-      ,{ name: "Вишневый латте", image: "images/onePrice/4.png" }
+      { name: "Капучино Сникерс", image: "images/oneprice/1.png" }
+      ,{ name: "Латте ореховое удовольствие", image: "images/oneprice/2.png" }
+      ,{ name: "Листовой чай", image: "images/oneprice/3.png" }
+      ,{ name: "Вишневый латте", image: "images/oneprice/4.png" }
     ]
   },
   coffeebon: {
