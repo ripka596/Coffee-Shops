@@ -103,10 +103,10 @@ const shops = {
     description: "Кофейня «КофеБон» — это уютное место, где можно не только выпить кофе, но и провести время с друзьями или поработать за ноутбуком.",
     map: "https://yandex.ru/map-widget/v1/?ll=30.273217,60.012552&z=17&pt=30.273217,60.012552",
     menu: [
-      { name: "Бискотти", image: "images/CoffeeBon/1.png" }
-      ,{ name: "Раф фисташковый пломбир", image: "images/CoffeeBon/2.png" }
-      ,{ name: "Раф син-о-бон", image: "images/CoffeeBon/3.png" }
-      ,{ name: "Нежные сырники как у бабушки", image: "images/CoffeeBon/4.png" }
+      { name: "Бискотти", image: "images/coffeebon/1.png" }
+      ,{ name: "Раф фисташковый пломбир", image: "images/coffeebon/2.png" }
+      ,{ name: "Раф син-о-бон", image: "images/coffeebon/3.png" }
+      ,{ name: "Нежные сырники как у бабушки", image: "images/coffeebon/4.png" }
     ]
   },
   sibaristica: {
