@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Тех. поддержка</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="icon" type="image/x-icon" href="images/favicon.png">
+		<script src="script.js" defer></script>
+	</head>
+    <body>
+		<header>
+			<a href="index.html"><img src="images/logo.png" alt="Логотип"></a>
+
+			<button class="menu-toggle" aria-label="Открыть меню">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+
+			<nav>
+				<ul>
+					<li id="catalog"><a href="catalog.html">Каталог</a></li>
+					<li id="support"><a href="support.html">Тех. Поддержка</a></li>
+				</ul>
+			</nav>
+		</header>
+        <main class="support">
+			<form action="https://formspree.io/f/xlgvdzdb" method="POST">
+				<label for="name">Ваше имя</label>
+				<input type="text" name="name" id="name">
+				
+				<label for="email">Ваша почта</label>
+				<input type="email" name="email" id="email">
+
+				<label for="message" class="full-width-label">Ваше обращение</label>
+				<textarea name="message" id="message" rows="10"></textarea>
+				
+				<div class="button-container">
+					<button type="submit">Отправить</button>
+				</div>
+			</form>
+		</main>		
+		<footer>
+			<p>© «Зёрна Питера» 2026</p>
+			<div class="socials">
+				<ul>
+					<li><a href="https://t.me/ispolubit"><img src="socials/TG.png" alt="Телеграм"></a></li>
+					<li><a href="https://vk.com/spbispo"><img src="socials/VK.png" alt="ВК"></a></li>
+					<li><a href="https://wa.me/78122940303"><img src="socials/WS.png" alt="Ватсап"></a></li>
+				</ul>
+			</div>
+		</footer>
+</html>
