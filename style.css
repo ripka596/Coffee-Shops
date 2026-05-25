@@ -108,6 +108,11 @@ footer li:hover {
 	border-radius: 30px;
 	padding: 5px 0px 5px 15px;
 	justify-content: start;
+	transition: transform 0.1s;
+}
+
+.search:active {
+	transform: scale(1.02);
 }
 
 .search textarea{
@@ -156,6 +161,11 @@ footer li:hover {
 	width: 200px;
 	border-radius: 40px;
 	flex-shrink: 0;
+	transition: transform 0.5s;
+}
+
+.sections section .main .image img:hover{
+	transform: scale(1.1)
 }
 
 .sections section .main .info {
@@ -185,11 +195,21 @@ footer li:hover {
 	font-size: 32px;
 	letter-spacing: 1px;
 	font-weight: bold;
+	transition: font-size 0.5s;
+}
+
+.sections section .main .info h2:hover {
+	font-size: 36px;
 }
 
 .sections section .main .info .address {
 	font-size: 20px;
 	gap: 8px;
+	transition: font-size 0.5s;
+}
+
+.sections section .main .info .address:hover {
+	font-size: 21px;
 }
 
 .sections section .main .info .address img {
@@ -211,8 +231,12 @@ footer li:hover {
 .sections section .main .info .rating img {
 	width: 55px;
 	height: auto;
+	transition: transform 0.5s;
 }
 
+.sections section .main .info .rating img:hover {
+	transform: scale(1.1);
+}
 
 /* ==МЕНЮ== */
 .sections section .menu {
@@ -247,6 +271,11 @@ footer li:hover {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	transition: transform 0.5s;
+}
+
+.sections section .menu .menu-item:hover{
+	transform: scale(1.1)
 }
 
 .sections section .menu .menu-item img {
@@ -291,6 +320,11 @@ footer li:hover {
 	width: 100%;
 	border-radius: 20px;
 	box-sizing: border-box;
+	transition: transform 0.5s;
+}
+
+.catalog section:hover {
+	transform: scale(1.05);
 }
 
 /* ==Главная картинка== */
@@ -299,7 +333,7 @@ footer li:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 15px;;
+	margin: 15px 0;
 }
 
 .catalog section .image img {
@@ -308,6 +342,7 @@ footer li:hover {
 	border-radius: 40px;
 	flex-shrink: 0;
 }
+
 .catalog section .info {
 	flex: 1;
 	display: flex;
@@ -374,6 +409,11 @@ footer li:hover {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	transition: transform 0.5s;
+}
+
+.card-content .menu-list .menu-item:hover {
+	transform: scale(1.1);
 }
 
 .card-content .menu-list .menu-item img {
